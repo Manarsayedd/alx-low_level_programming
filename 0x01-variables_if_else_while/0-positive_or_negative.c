@@ -8,7 +8,8 @@
  *
  * Return : 0 success
  */
-int main(void) {
+int main(void)
+{
 int n;
 /* Seed the random number generator. */
 srand(time(NULL));
