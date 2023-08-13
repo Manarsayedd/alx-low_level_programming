@@ -14,7 +14,7 @@ for (i = 0 ; i < 10; i++)
 {
 putchar((i % 10) + '0');
 }
-for (s = 'a' ; i <= 'f'; i++)
+for (s = 'a' ; s <= 'f'; i++)
 {
 putchar(s);
 }
