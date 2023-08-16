@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "_putchar"
+echo"_putchar"
