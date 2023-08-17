@@ -2,6 +2,8 @@
 
 /**
  * print_alphaber_x10 - function that will print alphabet 10 times
+ *
+ * description: to print alphabet 10 times with newline
  */
 
 void print_alphabet_x10(void)
@@ -10,7 +12,7 @@ int i;
 int j;
 for (i = 0; i < 10; i++)
 {
-for (j = 'a'; j < 'z'; j++)
+for (j = 'a'; j <= 'z'; j++)
 {
 _putchar(j);
 }
