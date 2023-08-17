@@ -6,7 +6,7 @@
  *
  * description: function that gives the absolute of a number 
  *
- *return: always 0 (success)
+ * Return: always 0 (success)
  */
 int _abs(int n)
 {
