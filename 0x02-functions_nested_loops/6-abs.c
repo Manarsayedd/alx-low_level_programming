@@ -4,7 +4,7 @@
  *
  * @n: describes the input of the function
  *
- * description: function that gives the absolute of a number 
+ * Description: calculate the absolute of a number
  *
  * Return: always 0 (success)
  */
