@@ -6,9 +6,9 @@
  * @n: checks on the input of the function
  * description: function that prints the sign of a number
  *
- * Return: will return 1 if n is between 0 and 47
- *                     0 if n is equal 48
- *                     -1 if n is greater than 48
+ * Return: will return 1 if +
+ *                     0 if n is 0
+ *                     -1 if n is less than than 0
  */
 
 int print_sign(int n)
@@ -16,7 +16,6 @@ int print_sign(int n)
 if (n < 0)
 {
 _putchar(45);
-_putchar(49);
 return (-1);
 }
 else if (n == 0)
@@ -26,6 +25,7 @@ return (0);
 }
 else if (n > 0)
 {
-_putchar(49);
+_putchar(43);
 return (1);
+}
 }
