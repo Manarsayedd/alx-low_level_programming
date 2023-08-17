@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *_islower - function that detect if
+ *_isalpha - function that detect if
  *               the c is la letter
  *
  * description: function to check if 'c' is a letter or not
