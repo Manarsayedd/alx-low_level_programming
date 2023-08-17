@@ -9,23 +9,25 @@
  */
 void times_table(void)
 {
-int i, j;
+int i, j, prod;
 for (i = 0; i < 10; i++)
 {
+_putchar(48);
 for (j = 0; j <= 9; j++)
 {
-if (j == 9)
+_putchar(',');
+_putchar(' ');
+prod = i * j;
+if(prod <= 9)
 {
-_putchar((i * j) + '0');
-_putchar('$');
+_putchar(' ');
 }
 else
 {
-_putchar((i * j) + '0');
-_putchar(',');
-_putchar(' ');
+_putchar((prod / 10) + 48);
+}
+_putchar((prod % 10) + 48);
 }
 _putchar('\n');
-}
 }
 }
