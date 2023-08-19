@@ -3,7 +3,7 @@
 /**
  * main - causes an infinite loop
  *
- * description: trying to avoid the infinite loop
+ * Description: infinite loop is caused
  *
  * @\n: newline
  *
