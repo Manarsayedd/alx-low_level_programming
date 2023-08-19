@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 /**
  * _isupper - detect if the input is upper case
