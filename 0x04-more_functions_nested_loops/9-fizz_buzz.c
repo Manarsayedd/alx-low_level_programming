@@ -1,7 +1,11 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *
+ * main - print numbers from 1 to 100
+ * numbers that divisble by 3 print fizz
+ * numbers that divisible by 5 print buzz
+ * numbers that divisible by 3 and 5 print fizzbuzz
+ * each number and word is separated by a space
  */
 void main(void)
 {
