@@ -1,4 +1,4 @@
-#include <stio.h>
+#include <stdio.h>
 #include "main.h"
 /**
  * print_diagonal - prints \ n times
