@@ -1,21 +1,22 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * mul - multiply 2 numbers
+ * mul - to get the multiplication of 2 numbers
  *
- * description: a function used to multiply 2 numbers
+ * decription: a function used to get the multiplication of 2 numbes
  *
- * @a: first input
+ * @a: first input to the function
  *
- * @b: second input
+ * @b: seconf input to the function
  *
  * Return: always 0 (success)
  */
 int mul(int a, int b)
 {
-	int mutiply;
+	int multiply;
 
 	multiply = a * b;
-
+	
 	return (multiply);
 }
+
