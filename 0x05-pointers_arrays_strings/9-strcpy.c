@@ -5,6 +5,7 @@
  * description: copy char array from another array
  * @dest: first input
  * @src: second input
+ * return: 0 success
  */
 char *_strcpy(char *dest, char *src)
 {
