@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * *_strcpy - copy char array from another array
+ *_strcpy - copy char array from another array
  * description: copy char array from another array
  * @dest: first input
  * @src: second input
