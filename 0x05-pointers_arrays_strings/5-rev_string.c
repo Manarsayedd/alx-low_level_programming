@@ -19,6 +19,7 @@ void rev_string(char *s)
 	{
 		ss[j] = s[i];
 		j++;
+		i--;
 	}
 
 	while (ss[ci])
