@@ -1,7 +1,10 @@
 #include <stdio.h>
 #include "main.h"
 /**
+ * puts2 - output string
  *
+ * description: output string
+ * @str: input of the function
  */
 void puts2(char *str)
 {
