@@ -4,8 +4,8 @@
  * _strcat - used to concatenates two strings
  *
  * description: wewewewe
- * dest: frist input to the function
- * src: second input to the function
+ * @dest: frist input to the function
+ * @src: second input to the function
  * Return: ay haga
  */
 char *_strcat(char *dest, char *src)
