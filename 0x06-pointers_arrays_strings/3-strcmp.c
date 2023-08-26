@@ -16,10 +16,12 @@ int _strcmp(char *s1, char *s2)
 		c++;
 	while (s2[c2] != '\0')
 		c2++;
-	if (c < c2)
-		ret = -15;
-	else if (c == c2)
+	if (c == c2)
 		ret = 0;
+
+	else if (c < c2)
+		ret = -15;
+
 	else
 		ret = 15;
 
