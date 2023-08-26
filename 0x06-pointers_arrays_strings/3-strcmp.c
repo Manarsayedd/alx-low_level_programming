@@ -1,11 +1,11 @@
 #include "main .h"
 /**
  *_strcmp - compares
- * 
+ *
  * description: compares
  *
- * @s1: first 
- * @s2: second 
+ * @s1: first
+ * @s2: second
  * Return: negative wewewe
  */
 int _strcmp(char *s1, char *s2)
@@ -22,6 +22,8 @@ int _strcmp(char *s1, char *s2)
 		ret = 0;
 	else
 		ret = 15;
+
+	return (ret);
 }
 
 
