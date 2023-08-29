@@ -7,9 +7,8 @@
 * Return: if found s[j]
 *            not fund null
 */
-char *_strchr(char *s, char c)
+	char *_strchr(char *s, char c) 
 {
-	char *_strchr(char *s, char c) {
 	int i;
 
 	for (i = 0; s[i] != '\0'; i++) 
@@ -21,5 +20,4 @@ char *_strchr(char *s, char c)
 	}
 
 	return NULL;
-	}
 }
