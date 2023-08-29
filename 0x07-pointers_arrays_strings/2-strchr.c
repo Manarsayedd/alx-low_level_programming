@@ -1,28 +1,25 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *_strchr - indicates if the letter we are searching for is in the string
- * @s: first input
- * @c: seconf input
- * Return: if found s[j]
- *            not fund null
- */
+*_strchr - indicates if the letter we are searching for is in the string
+* @s: first input
+* @c: seconf input
+* Return: if found s[j]
+*            not fund null
+*/
 char *_strchr(char *s, char c)
 {
-	int i = 0, j = 0;
-	bool here = false;
+	char *_strchr(char *s, char c) {
+	int i;
 
-	while (s[i] != '\0')
-		i++;
-
-	for (j = 0; j < i; j++)
+	for (i = 0; s[i] != '\0'; i++) 
 	{
-		if (s[j] == c)
+		if (s[i] == c) 
 		{
-			here = true;
-			break;
+			return &s[i];
 		}
 	}
-	if (here == true)
-		return (s[j]);
+
+	return NULL;
+	}
 }
