@@ -4,7 +4,7 @@
 /**
 * _strchr - indicates if the letter we are searching for is in the string
 * @s: first input
-* @c: seconf input
+* @c: second input
 * Return: if found s[j]
 */
 
