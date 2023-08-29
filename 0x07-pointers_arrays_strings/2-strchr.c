@@ -5,7 +5,6 @@
 * @s: first input
 * @c: seconf input
 * Return: if found s[j]
-*            not fund null
 */
 char *_strchr(char *s, char c)
 {
