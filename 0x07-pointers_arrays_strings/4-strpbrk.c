@@ -1,7 +1,10 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *
+ * _strpbrk - function locates the first occurance
+ * @s: first input
+ * @accept: second input
+ * Return: p
  */
 char *_strpbrk(char *s, char *accept)
 {
@@ -15,8 +18,8 @@ char *_strpbrk(char *s, char *accept)
 		{
 			if (accept[j] == s[i])
 			{
-				p = &s[i];
-				return (p);
+				ptr = &s[i];
+				return (ptr);
 			}
 			j++;
 		}
