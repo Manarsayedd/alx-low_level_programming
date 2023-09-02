@@ -47,7 +47,7 @@ int main(int argc, char *argv[])
 	v2 = _atoi(argv[2]);
 	if (argc != 3)
 	{
-		printf("ERROR \n");
+		printf("Error \n");
 		return (1);
 	}
 	else
