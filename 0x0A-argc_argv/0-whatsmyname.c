@@ -1,13 +1,10 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
  * main - main entry
- * Return: 0 (success)
- * @__attribute__((unused)): wewewejhg jkgjh kyguh kgjd
- * @ *argv[]: kjnci iudhpiun iojnipn pidnpi
  * @argc: ioughdoiuh iduhu iodjbhu
  * @argv: jhdgbkjhb kjdhbk udhb
+ * Return: 0 (success)
  */
 
 int main(int argc __attribute__((unused)), char *argv[])
