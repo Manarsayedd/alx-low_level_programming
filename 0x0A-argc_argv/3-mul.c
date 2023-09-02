@@ -28,7 +28,7 @@ int _atoi(char *s)
 		else
 			finalnum = num;
 		return (finalnum);
-	
+
 
 	}
 	return (0);
@@ -45,7 +45,7 @@ int main(int argc, char *argv[])
 
 	v1 = _atoi(argv[1]);
 	v2 = _atoi(argv[2]);
-	if (argc < 3)
+	if (argc != 3)
 	{
 		printf("ERROR \n");
 		return (1);
