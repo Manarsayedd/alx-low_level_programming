@@ -28,7 +28,10 @@ int _atoi(char *s)
 		else
 			finalnum = num;
 		return (finalnum);
+	
+
 	}
+	return (0);
 }
 /**
  * main - entrance point
