@@ -24,3 +24,4 @@ char *str_concat(char *s1, char *s2)
 	}
 	ptr[v3] = '\0';
 	return (ptr);
+}
