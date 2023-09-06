@@ -1,6 +1,9 @@
 #include "main.h"
 /**
- *
+ * alloc_grid - function to print 2 dimentional grid
+ * @width: first input
+ * @height: second input
+ * Return: mee
  */
 int **alloc_grid(int width, int height)
 {
@@ -28,6 +31,6 @@ int **alloc_grid(int width, int height)
 		{
 			mee[x][y] = 0;
 		}
-		return (mee);
 	}
+	return (mee);
 }
