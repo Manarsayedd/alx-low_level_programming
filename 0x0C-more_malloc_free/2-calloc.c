@@ -34,6 +34,6 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	m = malloc(size * nmemb);
 	if (m == NULL)
 		return (NULL);
-	*_memset(m, 0, size * nmemb);
-	return (m);
+	_memset(m, 0, size * nmemb);
+	return (m);
 }
