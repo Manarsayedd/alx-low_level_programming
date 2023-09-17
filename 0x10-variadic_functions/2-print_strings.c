@@ -21,7 +21,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	{
 		for (i = 0; i < n; i++)
 		{
-			char *str = var_arg(args, char *);
+			char *str = va_arg(args, char *);
 
 			if (str != NULL)
 				printf("%s", str);
