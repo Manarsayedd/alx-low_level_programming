@@ -7,7 +7,7 @@ void print_all(const char * const format, ...)
 {
 	va_list args;
 	int i = 0;
-	char space = "", *str;
+	char *space = "", *str;
 	va_start(args, format);
 
 	if (format)
@@ -17,13 +17,13 @@ void print_all(const char * const format, ...)
 			switch(format[i])
 			{
 				case 'c':
-					printf("%s%c", space, va_arg(args, char));
+					printf("%s%c", space, va_arg(args, int));
 					break;
 				case 'i':
 					printf("%s%d", space, va_arg(args, int));
 					break;
 				case 'f':
-					printf("%s%f", space, va_arg(args, float));
+					printf("%s%f", space, va_arg(args, double));
 					break;
 				case 's': 
 					str = va_arg(args, char *);
