@@ -3,7 +3,7 @@
 /**
  * list_len - function to print number of nodes
  * @h: first input
- * Return : number of nodes
+ * Return: number of nodes
  */
 size_t list_len(const list_t *h)
 {
@@ -11,7 +11,7 @@ size_t list_len(const list_t *h)
 
 	while (h)
 	{
-		cnt ++;
+		cnt++;
 		h = h->next;
 	}
 	return (cnt);
